@@ -1,0 +1,71 @@
+.card__item-wrapper {
+    width: 215px;
+    height: 255px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    border-top: solid 1px #eff3fa;
+    border-right: solid 3px #eff3fa;
+    border-bottom: solid 4px #eff3fa;
+    border-left: solid 2px #eff3fa;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.card__item {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+}
+.card__item_photo {
+    width: 110px;
+    height: 125px;
+    img{
+        transition: .5s
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+}
+.card__item_line {
+    width: 100%;
+    border-bottom: 1px solid #bcc3ca;
+    height: 10px;
+}
+.card__item_information {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 100%;
+    margin: 15px 0 0;
+}
+.card__item_english-name {
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+.card__item_russian-name {
+    width: 100%;
+    text-align: center;
+}
+.card__item_information-position, .card__item_information-room,
+.list__header-photo, .list__header-name, .list__header-department,
+.list__header-room {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: .5s;
+    :hover {
+        color: #0f0f23;
+    }
+}
+.card__item_information-position img, .card__item_information-room img {
+    height: 15px;
+    margin-right: 3px;
+}
+.card li.hide {
+    display: none;
+}

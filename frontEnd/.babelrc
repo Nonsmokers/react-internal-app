@@ -1,0 +1,3 @@
+{
+  "presets": ["module:@Babel/preset-env", "module:@Babel/preset-react"]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "175647",
+    "nameInEnglish": "Maxim Podolsky",
+    "nameInRussian": "Дмитрий Антоненко",
+    "login": "qweqweqwe@asda",
+    "password": "$2b$10$/N7gy/J5HboiumM/aG2KKei011B76s5w0Os0ozVK/Pxz1h2jrvyjq",
+    "role": "user",
+    "photo": "https://www.flaticon.com/svg/static/icons/svg/147/147142.svg",
+    "isAdmin": false
+  },
+  {
+    "id": "2546754",
+    "nameInEnglish": "Dzmitry Antonenka",
+    "nameInRussian": "Дмитрий Антоненко",
+    "login": "123123e@asda",
+    "password": "$2b$10$AmXrDn8Sm9fs2vIpEjh0x.FyYwDHvCFCtLxVKmIrB/uJW2U71oypG",
+    "role": "user",
+    "photo": "https://www.flaticon.com/svg/static/icons/svg/147/147142.svg",
+    "isAdmin": false
+  },
+  {
+    "id": "3547452",
+    "nameInEnglish": "Maxim Podolsky",
+    "nameInRussian": "Aleh Zhukau",
+    "login": "rsjktysdjrt",
+    "password": "$2b$10$AmXrDn8Sm9fs2vIpEjh0x.FyYwDHvCFCtLxVKmIrB/uJW2U71oypG",
+    "role": "editor",
+    "photo": "https://www.flaticon.com/svg/static/icons/svg/147/147142.svg",
+    "isAdmin": false
+  },
+  {
+    "id": "35684",
+    "nameInEnglish": "Admin Admin",
+    "nameInRussian": "Игорь Сивак",
+    "login": "admin",
+    "password": "$2b$10$PVq0XkqAuTQzLVBbQGxQG.xhFfZ1VnPiedrHq.7.H97XfKRob4GyO",
+    "role": "admin",
+    "photo": "https://www.flaticon.com/svg/static/icons/svg/147/147142.svg",
+    "isAdmin": true
+  },
+  {
+    "id": "580978",
+    "nameInEnglish": "Dzmitry Antonenka",
+    "nameInRussian": "Дмитрий Антоненко",
+    "login": "asretjrhrh",
+    "password": "$2b$10$AmXrDn8Sm9fs2vIpEjh0x.FyYwDHvCFCtLxVKmIrB/uJW2U71oypG",
+    "role": "user",
+    "photo": "https://www.flaticon.com/svg/static/icons/svg/147/147142.svg",
+    "isAdmin": false
+  },
+  {
+    "id": "64560",
+    "nameInEnglish": "Dzmitry Antonenka",
+    "nameInRussian": "Aleh Zhukau",
+    "login": "rstjhdtsda",
+    "password": "$2b$10$AmXrDn8Sm9fs2vIpEjh0x.FyYwDHvCFCtLxVKmIrB/uJW2U71oypG",
+    "role": "user",
+    "photo": "https://www.flaticon.com/svg/static/icons/svg/147/147142.svg",
+    "isAdmin": false
+  }
+]

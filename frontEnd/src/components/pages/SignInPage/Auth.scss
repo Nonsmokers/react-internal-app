@@ -1,0 +1,115 @@
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+.container__login {
+  width: 100%;
+  min-height: 85vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.wrap__login {
+  width: 390px;
+}
+.login__form {
+  width: 100%;
+}
+.login__form-title {
+  display: block;
+  font-size: 39px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.wrap__input {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #d9d9d9;
+  margin-bottom: 30px;
+}
+.input {
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  width: 100%;
+  height: 52px;
+  background: transparent;
+  padding: 0 5px;
+}
+.login__form-btn {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #225fbf;
+  border-radius: 10px;
+  transition: all 0.4s;
+  :hover {
+    background-color: #333333;
+  }
+}
+.radio__wrapper {
+  display: flex;
+  margin-bottom: 25px;
+}
+.radio__item{
+  margin-right: 20px;
+}
+.custom__radio {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.custom__radio + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+.custom__radio + label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+.custom__radio:not(:disabled):not(:checked) + label:hover::before {
+  border-color: #b3d7ff;
+}
+.custom__radio:not(:disabled):active + label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+.custom__radio:focus + label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.custom__radio:focus:not(:checked) + label::before {
+  border-color: #80bdff;
+}
+.custom__radio:checked + label::before {
+  border-color: #0b76ef;
+  background-color: #0b76ef;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}

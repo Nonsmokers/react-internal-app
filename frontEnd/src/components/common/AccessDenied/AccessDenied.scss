@@ -1,0 +1,14 @@
+.access__denied-wrapper{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        margin: 0 0 50px 0;
+        width: 40%;
+    }
+    h1{
+        color: #5e5363;
+    }
+}

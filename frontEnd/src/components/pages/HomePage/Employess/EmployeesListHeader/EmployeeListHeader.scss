@@ -1,0 +1,33 @@
+.list__header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 11px;
+    border-top: solid 1px #eff3fa;
+    border-right: solid 3px #eff3fa;
+    border-bottom: solid 6px #eff3fa;
+    border-left: solid 2px #eff3fa;
+    width: 100%;
+    img {
+        height: 15px;
+        margin-right: 3px;
+    }
+}
+.list__header-photo {
+    width: 10%;
+    margin: 0 0 0 15px;
+}
+.list__header-name {
+    width: 10%;
+    margin-right: 20%;
+}
+.list__header-department {
+    width: 10%;
+    margin-right: 20%;
+}
+.list__header-room {
+    width: 10%;
+    margin-right: 20%;
+}
